@@ -36,7 +36,7 @@ print(sys.path)
 
 # %%
 # Setup model
-ocr_model = PaddleOCR(lang='en')
+ocr_model = PaddleOCR(use_angle_cls=True, lang='en')
 
 
 # %%
